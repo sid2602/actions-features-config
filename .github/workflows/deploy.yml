@@ -20,5 +20,4 @@ jobs:
         run: npm run export
 
       - name: Deploy
-        if: ${{ failure() }}
         run: echo "Deploying app"
