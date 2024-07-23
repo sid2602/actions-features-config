@@ -1,0 +1,5 @@
+description: Star
+conditions:
+  - attribute: universe
+    operator: equals
+    value: star

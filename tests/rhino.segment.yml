@@ -1,0 +1,14 @@
+segment: rhino
+assertions:
+  - context:
+      universe: rhino
+    expectedToMatch: true
+
+  - context:
+      country: nebet
+      someOtherAttribute: someOtherValue
+    expectedToMatch: false
+
+  - context:
+      country: notRhino
+    expectedToMatch: false

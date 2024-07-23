@@ -1,0 +1,5 @@
+description: Rhino
+conditions:
+  - attribute: universe
+    operator: equals
+    value: rhino
